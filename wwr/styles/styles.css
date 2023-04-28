@@ -1,0 +1,61 @@
+@import url('https://fonts.googleaips.com/css2?family=font-name&family=optional-2nd-fond-name&display=swap');
+
+:root {
+       --primary-color: #3e92cc;
+       --secondary-color: #2a628f; 
+       --accent1-color: #13293d; 
+       --accent2-color: #16324f;
+       
+       --heading-font: 'Cormorant Garamond', serif;
+       --paragraph-font: 'Cormorant Garamond', serif;
+       
+       --nav-background-color: #18435a;
+       --nav-link-color: #3e92cc;
+       --nav-hover-link-color: #13293d;
+       --nav--hover-background-color: #2a628f;      
+}
+
+body {
+      font-family: var(--paragraph-font);
+      max-width: 960px;
+      padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4  { 
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+       padding: 20px;
+       background-color: var(--accent1-color);    
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+     background-color: var(--nav-background-color);
+     font-size: 1.2rem;
+     display: flex;
+}
+
+nav a{
+      display: block;
+      color: var(--nav-hover-link-color);
+      text-decoration: none;
+      padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav--hover-background-color); 
+}
