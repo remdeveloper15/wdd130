@@ -1,18 +1,18 @@
 @import url('https://fonts.googleaips.com/css2?family=font-name&family=optional-2nd-fond-name&display=swap');
 
 :root {
-  --primary-color: #XXXXXX;
-  --secondary-color: #XXXXXX; 
-  --accent1-color: #XXXXXX; 
-  --accent2-color: #XXXXXX;
+  --primary-color: #3e92cc;
+  --secondary-color: #2a628f; 
+  --accent1-color: #13293d; 
+  --accent2-color: #16324f;
   
-  --heading-font: '_____', serif;
-  --paragraph-font: '_____', serif;
+  --heading-font: 'Cormorant Garamond', serif;
+  --paragraph-font: 'Cormorant Garamond', serif;
   
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav--hover-background-color: #XXXXXX;      
+  --nav-background-color: #18435a;
+  --nav-link-color: #3e92cc;
+  --nav-hover-link-color: #13293d;
+  --nav--hover-background-color: #2a628f;      
 }
 
 body {
