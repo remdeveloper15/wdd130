@@ -4,26 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Class Selectors */
-
-.box {
-    margin: 1rem;
-    border: 1px rgba(65, 147, 169, 1);
-    padding: 1rem;
-    background-color: skyblue;
-    color: white;
-    width: 824px;
-}
-
-.box2 {
-    margin: 1rem;
-    border: 1px rgba(65, 147, 169, 1);
-    padding: 1rem;
-    background-color: skyblue;
-    color: white;
-    width: 1423px;
-}
-
 main {
      max-width: 840px;
 }
@@ -76,4 +56,22 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
 /* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px rgba(65, 147, 169, 1);
+    padding: 1rem;
+    background-color: skyblue;
+    color: white;
+    width: 824px;
+}
+
+.box2 {
+    margin: 1rem;
+    border: 1px rgba(65, 147, 169, 1);
+    padding: 1rem;
+    background-color: skyblue;
+    color: white;
+    width: 1423px;
+}
