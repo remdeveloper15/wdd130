@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Class Selectors */
+
 .box {
     margin: 1rem;
     border: 1px rgba(65, 147, 169, 1);
@@ -74,4 +76,4 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/*Class Selectors*/
+/* Class Selectors */
