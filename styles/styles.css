@@ -4,29 +4,72 @@
     box-sizing: border-box;
 }
 
-main {
-     max-width: 840px;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    background-color: steelblue;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    color: white;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+main {
+    margin: 1rem;
+    grid-column: 2/3; 
+    padding: 1rem;
+}
+
+h1 {
+    color: steelblue;
+    border-bottom: solid steelblue 1px;
+    padding: 1rem;
+}
+
+img {
+    width: 150px;
+    height: auto;  
+    border: 1px solid steelblue;
+    margin: 1rem;  
+    box-shadow: 0 0 30px gray;
+    padding: 2px;
+
+}
 main img {
-         border: 1px solid steelblue;
-         float: right;
-         width: 150px;
-         height: auto;  
-         box-shadow: 0 0 30px gray; 
-         padding: 2px;
-         margin: 0 0 1rem 1rem;  
+    
+        width: 150px;
+        height: auto;
+        float: right;
 }
 
 aside {
-      text-align: center; 
-      position: relative;
+     width: 20rem;
+     position: relative;
+     grid-column: 1/2;
+     grid-row: 1/2;
+     text-align: center;
 }
 
 aside h2 {
+        top: 35px;
         position: absolute;
-        left: 645px;    
-        bottom: 183px;
+        left: 0;    
+        right: 0;
+        margin: auto;
+        position: absolute;
  }
 
 aside img{
@@ -34,22 +77,7 @@ aside img{
          height: auto; 
 }
 
-nav { 
-    background-color: steelblue;
-    padding: 10px;
-}
-
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
-
-h1 {
-    color: steelblue;
-}
-
-p { padding: 0;}
+p { padding: 1rem 0;}
 
 footer {
     margin-top: 1em;
@@ -59,19 +87,15 @@ footer {
 
 /* Class Selectors */
 .box {
-    margin: 1rem;
     border: 1px rgba(65, 147, 169, 1);
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background-color: skyblue;
     color: white;
-    width: 824px;
 }
 
-.box2 {
-    margin: 1rem;
-    border: 1px rgba(65, 147, 169, 1);
-    padding: 1rem;
-    background-color: skyblue;
-    color: white;
-    width: 1423px;
+
+.grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
 }
