@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@100&display=swap');
+ 
+:root {
+--heading-font: 'Roboto Mono', monospace;
+--paragraph-font: 'Roboto Condensed', sans-serif;
+--colored-font: 'Noto Serif', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font, --heading-font);
+    font-size: 1.2em;
+    color: #333;
+    background-color: #fff;
+}
+
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1{
+    margin: 1rem;
+    font-size: 30px;
+    font-family: var(--heading-font);
+    color: navy;
+    text-align: left;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 1, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+   
+    display: grid;
+
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: none;
+    padding: 1rem;
+}
+
+span {
+    color: darkblue
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+img{
+    display: grid;
+    justify-self: center;
+}
+
+label, input, button, select, textarea{
+    font-family: var(--colored-font);
+
+}
+
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: large;
+
+}
+
+
