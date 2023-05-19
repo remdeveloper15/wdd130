@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <table style="width: 100%;">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Email</th> 
+        </tr>
+        <tr>
+            <td colspan="2">Kiko Palomares</td>
+            <td></td>
+            <td>email</td> 
+        </tr>
+        <tr>
+            <td>Kiko</td>
+            <td rowspan="2">Palomares</td>
+            <td>email</td> 
+        </tr>
+        <tr>
+            <td>Kiko</td>
+            <td>Palomares</td>
+            <td>email</td> 
+        </tr>
+    </table>
+
+   <p>Tabla simple con encabezado</p> 
+   <table>
+    <tr>
+        <th>Primer Nombre</th>
+        <th>Primer Apellido</th>
+    </tr>
+    <tr>
+        <td>Jhon</td>
+        <td>Doe</td>
+    </tr>
+   </table>
+
+   <p>Tabla with thead, tfoot, and tbody</p>
+   <table>
+    <thead>
+        <tr>
+            <th>Contenido del encabezado 1</th>
+            <th>Contenido del encabezado 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Contenido del cuerpo 1</td>
+            <td>Contenido del cuerpo 2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Contenido del pie 1</td>
+            <td>Contenido del pie 2</td>
+        </tr>
+    </tfoot>
+   </table>
+
+   <p>Table with colgroup</p>
+   <table>
+    <colgroup span="4"></colgroup>
+    <tr>
+        <th>Paises</th>
+        <th>Capilates</th>
+        <th>Población</th>
+        <th>Idioma</th>
+    </tr>
+    <tr>
+      <td>Ecuador</td>
+      <td>Santa Elena</td>
+      <td>8 millones</td>
+      <td>Español</td>  
+    </tr> 
+    <tr>
+        <td>España</td>
+        <td>Cataluña</td>
+        <td>45 millones</td>
+        <td>Español Castellano Aleman Ruso</td>
+    </tr>
+    <tr>
+        <td>España</td>
+        <td>Cataluña</td>
+        <td>45 millones</td>
+        <td>Castellano</td>
+    </tr>
+    
+   </table>
+
+   <p>Table with colgroup and col</p>
+<table>
+  <colgroup>
+    <col style="background-color: #0f0" />
+    <col span="2" />
+  </colgroup>
+  <tr>
+    <th>Lime</th>
+    <th>Lemon</th>
+    <th>Orange</th>
+  </tr>
+  <tr>
+    <td>Green</td>
+    <td>Yellow</td>
+    <td>Orange</td>
+  </tr>
+</table>
+
+<p>Simple table with caption</p>
+<table>
+  <caption>
+    Awesome caption
+  </caption>
+  <tr>
+    <td>Awesome data</td>
+  </tr>
+</table>
+</body>
+</html>
