@@ -29,7 +29,7 @@
     background-color: var(--primary-color);
    
     margin: 1.6em auto;
-    width: 90%;
+    width: 100%;
     max-width: 1400px;
     display: grid;
     gap: 1.6em;
@@ -67,14 +67,6 @@ font-size: 25px;
 
 /*sections sections sections sections sections sections sections sections sections sections sections sections sections sections */
 
-.seccion{
-    padding: 50px;
-    border: 5px solid black;
-    grid-column: 1/6;
-    background-color: var(--accent2-color);
-    font-family: var(--paragraph-font);
-    color: aliceblue;
-}
 
 .seccion h2{
     text-align: center;
@@ -143,32 +135,6 @@ main img {
     margin-left: 5px;
     width: 30px;
     height: 30px;
-}
-
-table {
-    background-color: aliceblue;
-    color: black;
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 400px;
-}
-
-th {
-    background-color: var(--acent3-color);
-    margin: 0;
-    border: 1px solid black;
-    padding: 25px;
-    font-family: var(--heading-font);
-    font-size: 2rem;
-    color: aliceblue;
-}
-
-td {
-    border: 1px solid black;
-    text-align: center;
-    font-family: var(--paragraph-font);
-    font-size: large
-    ;
 }
 
 input [type="checkbox"] {
@@ -255,4 +221,79 @@ label, input, button, select, textarea{
 input [type="radio"] {
     padding: 0.5rem;
     vertical-align: bottom;
+}
+
+.grilla{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+
+aside{
+    width: 550px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 1, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+
+    
+}
+
+aside h1{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    font-family: var(--heading-font);
+    font-size: 30px;
+    color: navy;
+    margin: 1rem;
+}
+
+aside h2{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    font-family: var(--heading-font);
+    font-size: 30px;
+    color: navy;
+    margin: 1rem;
+}
+
+aside p {
+    font-size: var(--colored-font);
+}
+
+.aside_grillas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.img1{
+    width: 40px;
+    height: 45px;
+    margin: 1rem;
+    padding: 0;
+}
+
+.img2{
+    width: 35px;
+    height: 25px;
+    margin: 1rem;
+    padding: 0;
+}
+
+.img3{
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+    padding: 0;
+}
+
+iframe{
+    width: 530px;
+    height: 300px;
+    margin: 0;
+    border: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
