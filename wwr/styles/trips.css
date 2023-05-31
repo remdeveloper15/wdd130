@@ -21,12 +21,7 @@
     margin: 0;
 }
 
-
-
-
-  
 /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ /*HEADER*/ 
-
 .call{
     display: flex;
     justify-content: space-around;
@@ -92,150 +87,175 @@ header img {
     background-color: var(--nav-background-color);
 }
 
-
-
-
-/*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/
+/*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ 
 
 main{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-    text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1628048541470-45db71ac1244?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px;   
+    background-color: var(--secondary-color);
+    padding-top: 50px;
 }
 
 main h1{
-    padding: 10px;
-    background-color: rgba(70, 171, 185, 0.4);
-    margin-top: 30px;
+    background-color: rgba(70,171,185,0.7);
+    text-align: center;
+    color: white;
     font-family: var(--heading-font);
-    color: aliceblue;
+    padding: 10px;
     text-transform: uppercase;
-    border-radius: 0.5rem;
-    transition: all 0.5s ease;
+    margin-bottom: 50px;
+    font-size: 30px;
+    transition: 1s;
 }
 
 main h1:hover{
+    color: var(--nav-hover-background-color);
+    background-color: var(--secondary-color);
+}
+
+.principal{
     background-color: var(--accent2-color);
-}
-
-main img {
-    width: 250px;
-    height: 200px;
-    margin-left: 20px;
-    transition: 1s;
-    border-radius: 0.5rem;
-}
-
-main img:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.flexbox1{
-    padding: 30px;
-    margin-top: 10px;
-    display: flex;
-    background-color: rgba(203, 225, 255, 0.3);
-    font-family: var(--heading-font);
-    font-weight: 700;
-    font-size: 17px;
-    text-align: justify;
-    border-radius: 0.5rem;
-    color: black;
-    transition: all 0.5s ease;
-}
-
-.flexbox1:hover{
-    background-color: var(--nav-background-color);
-}
-
-.grid1{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-}
-
-
-.flexbox2{
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
-    margin-top: 10px;
-    background-color: rgba(203, 225, 255, 0.3);
-    font-family: var(--heading-font);
-    font-weight: 700;
-    font-size: 17px;
-    text-align: justify;
+}
+
+article{
+    background-color: var(--primary-color);
+    margin: 10px;
     border-radius: 0.5rem;
-    color: black;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    text-align: justify;
+    font-family: var(--colored-font);
     transition: all 0.5s ease;
 }
 
-.flexbox2:hover{
+
+article img{
+    width: 400px;
+    height: 320px;
+    margin-bottom: 10px;
+    justify-self: center;
+}
+
+article img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+article h3{
+    font-family: var(--colored-font);
+    color: var(--nav-hover-background-color);
+    justify-self: center;
+    margin-bottom: 10px;
+    }
+
+
+article a{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: var(--nav-hover-link-color);
+    transition: all 0.5s ease;
+    border-radius: 0.5rem;
+    font-family: var(--heading-font);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+
+article > a:hover{
+    cursor: pointer;
+    color: var(--nav-hover-background-color);
     background-color: var(--nav-background-color);
 }
 
-.flexbox2 img{
-    margin-left: 20px;
-    margin-right: 20px;
+article span{
+    font-weight: 600;
+}
+
+table{
+    margin-top: 50px;
+}
+
+table, td, th{
+    border: 1px solid var(--primary-color);
+    border-collapse: collapse; 
 }
 
 
-/*SECTION*/ /*SECTION*/ /*SECTION*/ /*SECTION*/  /*SECTION*/ /*SECTION*/ /*SECTION*/ /*SECTION*/ /*SECTION*/ /*SECTION*/
-
-.grid2{
-    display: grid;
-    grid-column: 100%;
-    grid-template-rows: auto auto;
-}
-
-.grid2 img{
-    width: 284px;
-    height: 200px;
-    transition: 1s;
-}
-
-.grid2 img:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.grid2 h2{
-    text-align: center;
-    background-color: var(--accent2-color);
+th, td{
     padding: 20px;
-    color: aliceblue;
+}
+
+thead{
+    background-color: var(--accent1-color);
     font-family: var(--heading-font);
+    font-size: 25px;
     text-transform: uppercase;
-    font-size: 17px;
+}
+
+.th1{
+    background-color: var(--primary-color);
+    font-family: var(--colored-font);
+    text-transform: uppercase;
     font-weight: 700;
 }
 
-.flexbox3{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: var(--primary-color);
-    padding-bottom: 30px;
-    padding-top: 30px;
+tbody td{
+    background-color: var(--nav-hover-background-color);
+    font-family: var(--colored-font);
+    font-weight: 700;
     transition: all 0.5s ease;
 }
 
-.flexbox3:hover{
+tbody td:hover{
+    cursor: pointer;
+    color: var(--nav-hover-background-color);
     background-color: var(--nav-hover-link-color);
 }
 
-figcaption{
-    font-size: 15px;
-    font-family: var(--colored-font);
+.extra{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--accent1-color);
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
-/*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ 
+.extra h2{
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-bottom: 40px;
+    padding: 30px;
+    font-size: 25px;
+    font-family: var(--heading-font);
+    color: black;
+    text-transform: uppercase;
+}
 
+.extra img{
+    width: 284px;
+    height: 200px;
+    transition: 2s;
+}
+
+.extra2{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    transition: 2s;
+    background-color: var(--accent2-color);
+    margin: 0;
+}
+
+.extra2 :hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+/*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ 
 
 .pie {
     display: flex;
