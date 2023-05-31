@@ -261,6 +261,8 @@ figcaption{
 }
 
 
+
+
 .pie img:hover{
     cursor: pointer;
     color: var(--nav-hover-background-color);
