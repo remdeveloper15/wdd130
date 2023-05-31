@@ -53,7 +53,7 @@ nav a:hover{
 
 /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ /*MAIN*/ 
 
-.grid{
+.papa{
     display: grid;
     gap: 40px;
     grid-template-columns: 1fr 1fr;
@@ -142,7 +142,7 @@ nav a:hover{
 
 }
 
-.flex2 img{
+.grid img{
     width: 300px;
     height: auto;  
     border: 1px solid var(--accent2-color);
@@ -151,18 +151,18 @@ nav a:hover{
     transition: 1s;
 }
 
-.flex2{
+.grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 
-.flex2 img:hover{
+.grid  img:hover{
     transform: scale(1.1);
     transition: 1s;
 }
 
-.flex2 p{
+.grid  p{
     padding-right: 2rem;
     padding-left: 2rem;
     margin: 1rem;

@@ -108,7 +108,7 @@ main{
     padding: 100px;   
 }
 
-main h1{
+main h2{
     padding: 10px;
     background-color: rgba(70, 171, 185, 0.4);
     margin-top: 30px;
@@ -119,7 +119,7 @@ main h1{
     transition: all 0.5s ease;
 }
 
-main h1:hover{
+main h2:hover{
     background-color: var(--accent2-color);
 }
 
